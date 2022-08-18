@@ -1,0 +1,18 @@
+import component from xyz
+import binder from tuv
+
+create component
+    define columns
+    define rows
+    update the cells in row and columb intersections.
+    Do this until all cells are filled. 
+    the input values should be equal to the number of cells.
+    number of cells = multiplication of rows * column
+    t = 0;
+    for (i=0, i< row, i++){
+       for (j=0, j < column, j++){
+           table[i,j] = value[t]
+           t++
+       }
+    }
+
